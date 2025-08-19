@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KPO Bot - Tu bias virtual</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Chatbot KPO -->
+  <div class="chat-container">
+    <div class="chat-header">
+      <h2>💬 Luna, tu bias bot</h2>
+      <p>Experta en K-pop, drama y corazones rotos por idols 💜</p>
+    </div>
+
+    <!-- Zona de mensajes -->
+    <div id="chat-box"></div>
+
+    <!-- Input del usuario -->
+    <div class="chat-input">
+      <button onclick="toggleVoz()" id="voz-btn">🔇</button>
+      <input type="text" id="user-input" placeholder="Pregunta algo de K-pop..." />
+      <button onclick="enviar()">Enviar</button>
+    </div>
+  </div>
+
+  <!-- Cargamos el script -->
+  <script src="script.js"></script>
+</body>
+</html>
